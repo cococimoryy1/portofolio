@@ -31,6 +31,7 @@ import Tools22 from "/assets/tools/linux.png";
 import Tools23 from "/assets/tools/drawio.png";
 import Tools24 from "/assets/tools/vite.png";
 import Tools25 from "/assets/tools/firebase.png";
+import Tools26 from "/assets/tools/postman.png";
 
 export const listTools = [
   {
@@ -208,6 +209,13 @@ export const listTools = [
     ket: "Backend Service",
     dad: "2500",
   },
+    {
+    id: 26, // <-- Fix id duplikat
+    gambar: Tools26,
+    nama: "Postman",
+    ket: "API Testing",
+    dad: "2600",
+  },
 ];
 
 import Proyek1 from "/assets/proyek/proyek1.png";
@@ -222,9 +230,9 @@ export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "Tradisi Rasa – Platform Pesan Makanan Tradisional",
-    subtitle: "Aplikasi pemesanan makanan tradisional dengan konsep UI/UX...",
-    fullDescription:"Aplikasi UI/UX untuk memesan makanan tradisional secara online, mirip GoFood/Gojek, yang mempermudah pengguna menemukan kuliner khas daerah dengan tampilan modern dan interaktif.",
+    title: "Tradisi Rasa – Traditional Food Ordering Platform",
+    subtitle: "A UI/UX application for ordering traditional foods online...",
+    fullDescription: "A UI/UX platform for ordering traditional foods online, similar to GoFood/Gojek, designed to help users discover regional culinary specialties with a modern and interactive interface.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     demoUrl: "https://www.figma.com/proto/ijShZhShTSVLMc3Itl4U61/Tradisi-Rasa?page-id=1%3A2&node-id=140-2550&viewport=-151%2C1461%2C0.29&t=rJVl1w357LIRspdm-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A4&show-proto-sidebar=1",
@@ -234,20 +242,20 @@ export const listProyek = [
     id: 2,
     image: Proyek2,
     title: "SweetTreat",
-    subtitle: "Aplikasi toko kue berbasis Flutter untuk katalog dan pemesanan produk...",
-    fullDescription:"Aplikasi mobile berbasis Flutter untuk toko kue yang memungkinkan pengguna melihat katalog produk, melakukan pemesanan, dan mempermudah manajemen penjualan, dibuat untuk memenuhi sertifikasi apps programmer.",
+    subtitle: "Flutter-based cake shop app for product catalog and ordering...",
+    fullDescription: "A Flutter mobile application for a cake shop, allowing users to browse product catalogs, place orders, and facilitate sales management, created to meet the apps programmer certification requirements.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/cococimoryy1/apps_toko_kue",
-    downloadUrl: "https://drive.google.com/file/d/1qYXG2V0UcwfzEZqe_NBHH1g1nt1_W-0y/view?usp=sharing", // 👈 link download
+    downloadUrl: "https://drive.google.com/file/d/1qYXG2V0UcwfzEZqe_NBHH1g1nt1_W-0y/view?usp=sharing",
     dad: "200",
   },
   {
     id: 3,
     image: Proyek3,
-    title: "QuiCode – Aplikasi Belajar Coding",
-    subtitle: "Aplikasi edukasi coding (HTML, CSS, JS) dengan materi dan kuis interaktif...",
-    fullDescription:"Platform edukasi interaktif yang menyediakan materi HTML, CSS, dan JavaScript, dilengkapi kuis untuk menguji pemahaman pengguna, dirancang agar belajar coding lebih terstruktur dan menyenangkan.",
+    title: "QuiCode – Coding Learning Application",
+    subtitle: "Interactive coding education app (HTML, CSS, JS) with lessons and quizzes...",
+    fullDescription: "An interactive educational platform providing lessons in HTML, CSS, and JavaScript, complete with quizzes to test users' understanding, designed to make learning coding structured and enjoyable.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/cococimoryy1/quiz_flutter",
@@ -259,19 +267,19 @@ export const listProyek = [
     image: Proyek4,
     title: "Personal Web Portfolio",
     subtitle: "An interactive web portfolio showcasing my professional journey...",
-    fullDescription:"An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
+    fullDescription: "An interactive web portfolio highlighting my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, it showcases my technical expertise in web development, software engineering, and IoT, serving as a central hub for potential employers and collaborators.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/cococimoryy1/web-portofolio",
     downloadUrl: "https://cococimoryy1.github.io/web-portofolio/",
     dad: "400",
   },
-    {
+  {
     id: 5,
     image: Proyek5,
     title: "Sarpras Campus",
-    subtitle: "Website Laravel untuk manajemen peminjaman barang kampus...",
-    fullDescription:"Website berbasis Laravel untuk manajemen peminjaman barang sarana dan prasarana kampus, termasuk proses registrasi, pengajuan peminjaman, dan monitoring status barang.",
+    subtitle: "Laravel website for campus equipment loan management...",
+    fullDescription: "A Laravel-based website for managing the borrowing of campus facilities and equipment, including registration, loan requests, and tracking the status of borrowed items.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/cococimoryy1/project-sarpras",
@@ -281,8 +289,8 @@ export const listProyek = [
     id: 6,
     image: Proyek6,
     title: "WeatherAI",
-    subtitle: "Sistem pakar prediksi cuaca berbasis backward chaining....",
-    fullDescription:"Sistem pakar berbasis kecerdasan buatan yang memprediksi kondisi cuaca menggunakan metode backward chaining, memudahkan perencanaan aktivitas berdasarkan perkiraan cuaca.",
+    subtitle: "Expert system for weather prediction using backward chaining...",
+    fullDescription: "An AI-based expert system that predicts weather conditions using backward chaining methods, helping users plan activities based on forecasted weather.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     demoUrl: "https://www.figma.com/proto/uu9QrL60VvJ9r5nOVqOatx/AI?page-id=0%3A1&node-id=2019-1037&viewport=733%2C120%2C0.05&t=Z1EL4FdLENoNQOmB-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2019%3A1037",
@@ -292,8 +300,8 @@ export const listProyek = [
     id: 7,
     image: Proyek7,
     title: "SoleaFlowers",
-    subtitle: "Website florist sederhana dengan HTML, CSS, dan JavaScript....",
-    fullDescription:"Website e-commerce sederhana untuk penjualan bunga, dengan desain menarik menggunakan HTML, CSS, dan JavaScript, memudahkan pengguna melihat katalog bunga dan melakukan pemesanan online.",
+    subtitle: "Simple florist website using HTML, CSS, and JavaScript...",
+    fullDescription: "A simple e-commerce website for selling flowers, designed with HTML, CSS, and JavaScript. It allows users to browse the flower catalog and place orders online with an attractive, user-friendly interface.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/cococimoryy1/uas-workshop-ui",
@@ -301,3 +309,4 @@ export const listProyek = [
     dad: "700",
   },
 ];
+

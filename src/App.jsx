@@ -11,7 +11,6 @@ import ChromaGrid from "./components/ChromaGrid/ChromaGrid";
 import ProjectModal from "./components/ProjectModal/ProjectModal";
 import Aurora from "./components/Aurora/Aurora";
 import AOS from 'aos';
-import ChatRoom from "./components/ChatRoom";
 import 'aos/dist/aos.css';
 // ..
 AOS.init();
@@ -75,13 +74,13 @@ function App() {
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
               <img src="./assets/shely1.png" className="w-10 rounded-md" />
-              <q>Avoid or just undertake it</q>
+              <q>Always learning, always creating.</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
               <ShinyText text="Hi I'm Shelyna Riska Amanatullah" disabled={false} speed={3} className='custom-class' />
             </h1>
             <BlurText
-              text="A passionate application and web developer dedicated to crafting modern, high-performance digital experiences through innovative and user-friendly solutions."
+              text="An informatics student and aspiring web & application developer, passionate about learning and creating modern, user-friendly digital solutions."
               delay={150}
               animateBy="words"
               direction="top"
@@ -128,30 +127,30 @@ function App() {
                   About Me
                 </h2>
 
-                <BlurText
-                  text="I’m Shelyna Riska Amanatullah, a full-stack developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
-                  delay={150}
-                  animateBy="words"
-                  direction="top"
-                  className="text-base md:text-lg leading-relaxed mb-10 text-gray-300"
-                />
+            <BlurText
+              text="I’m Shelyna Riska Amanatullah, an informatics student and aspiring full-stack developer with a strong passion for learning and creating digital solutions. Since my first semester, I have been exploring projects, coursework, and organizational activities to improve both technical and soft skills. I enjoy working with web development, artificial intelligence, and cloud-based technologies, combining creativity with problem-solving to deliver meaningful results. Currently in my 5th semester with a GPA of 3.71/4.00, I am eager to continue growing, collaborating, and contributing to impactful digital products in the future."
+              delay={150}
+              animateBy="words"
+              direction="top"
+              className="text-base md:text-lg leading-relaxed mb-10 text-gray-300"
+            />
 
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      20<span className="text-violet-500">+</span>
+                      10<span className="text-violet-500">+</span>
                     </h1>
                     <p>Project Finished</p>
                   </div>
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3<span className="text-violet-500">+</span>
+                      2<span className="text-violet-500">+</span>
                     </h1>
                     <p>Years of Experience</p>
                   </div>
                   <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3.81<span className="text-violet-500">/4.00</span>
+                      3.62<span className="text-violet-500">/4.00</span>
                     </h1>
                     <p>GPA</p>
                   </div>
@@ -210,19 +209,19 @@ function App() {
         {/* NEW: Academic Experience Section */}
         <div className="academic mt-32 py-10" id="academic" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-            Pengalaman Akademik
+            Academic Experience
           </h1>
           <p className="text-base/loose text-center opacity-50 mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
-            Perjalanan kuliah saya: dari kepanitiaan dan kegiatan hingga tantangan, momen berkesan, dan aspirasi masa depan.
+              My college journey: from committees and activities to challenges, memorable moments, and future aspirations.
           </p>
           <div className="mx-auto w-full max-w-[1600px] rounded-3xl border-[5px] border-violet-500/40 shadow-[0_0_30px_rgba(168,85,247,0.4)] bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a] p-6">
             <div className="space-y-8">
               {/* Kepanitiaan & Organisasi */}
               <div className="flex flex-col md:flex-row gap-6 items-start" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true">
                 <div className="flex-1">
-                  <h2 className="text-2xl font-bold text-white mb-4">Kepanitiaan & Organisasi</h2>
+                  <h2 className="text-2xl font-bold text-white mb-4">Committees & Organizations</h2>
                   <BlurText
-                    text="Selama kuliah saya aktif mengikuti berbagai kepanitiaan, baik internal maupun eksternal. Selain itu, saya juga mengerjakan beberapa proyek kecil dan terus memperdalam pengetahuan di bidang IT. Saya tergabung di UKM Tapak Suci Universitas Airlangga sejak Januari 2024 sebagai staff PSDM, serta aktif di organisasi HIMA D4 Teknik Informatika (HIMTI) sebagai staff ahli internal divisi Perhubungan Internal."
+                    text="During my college years, I have been actively involved in various committees both within and outside the campus. I also worked on several small projects to improve my knowledge in the field of IT. Since January 2024, I have been a staff member in the Human Resource Development division of the Tapak Suci Student Activity Unit at Universitas Airlangga. In addition, I am actively involved in the Informatics Engineering Student Association (HIMTI) as an internal expert staff in the Internal Relations division. Through these experiences, I have learned teamwork, communication, and time management skills that are valuable for both academic and professional development."
                     delay={150}
                     animateBy="words"
                     direction="top"
@@ -241,9 +240,9 @@ function App() {
               {/* Kejuaraan & Lomba */}
               <div className="flex flex-col md:flex-row gap-6 items-start" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
                 <div className="flex-1">
-                  <h2 className="text-2xl font-bold text-white mb-4">Kejuaraan & Lomba</h2>
+                  <h2 className="text-2xl font-bold text-white mb-4">Championships & Competitions</h2>
                   <BlurText
-                    text="Saya pernah meraih juara di beberapa kejuaraan di Jakarta, Malang, dan Banyuwangi."
+                    text="I have had the opportunity to compete in several championships and was fortunate to achieve victories in different cities such as Jakarta, Malang, and Banyuwangi. These accomplishments gave me a sense of pride and confidence, while also teaching me discipline, consistency, and the importance of perseverance in reaching goals."
                     delay={150}
                     animateBy="words"
                     direction="top"
@@ -260,23 +259,32 @@ function App() {
               </div>
 
               {/* Tantangan Terbesar */}
-              <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
-                <h2 className="text-2xl font-bold text-white mb-4">Tantangan Terbesar</h2>
-                <BlurText
-                  text="Tantangan yang sering saya hadapi adalah membagi waktu antara kuliah, organisasi, dan kepanitiaan. Menjaga keseimbangan agar semua bisa berjalan baik menjadi hal yang cukup menantang."
-                  delay={150}
-                  animateBy="words"
-                  direction="top"
-                  className="text-base leading-relaxed text-gray-300"
-                />
+              <div className="flex flex-col md:flex-row gap-6 items-start" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
+                <div className="flex-1">
+                  <h2 className="text-2xl font-bold text-white mb-4">Biggest Challenge</h2>
+                  <BlurText
+                    text="One of the biggest challenges I face during college is balancing time between lectures, organizational activities, and committee responsibilities. Managing these different commitments is not always easy, but it has helped me become more disciplined, responsible, and able to prioritize tasks effectively."
+                    delay={150}
+                    animateBy="words"
+                    direction="top"
+                    className="text-base leading-relaxed text-gray-300"
+                  />
+                </div>
+                <div className="md:w-1/3 flex justify-center md:justify-end">
+                  <img 
+                    src="./assets/challenge.png" 
+                    alt="Foto Tantangan" 
+                    className="w-full max-w-md rounded-xl shadow-lg border border-violet-500/30" 
+                  />
+                </div>
               </div>
 
               {/* Momen Berkesan */}
               <div className="flex flex-col md:flex-row gap-6 items-start" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
                 <div className="flex-1">
-                  <h2 className="text-2xl font-bold text-white mb-4">Momen Berkesan</h2>
+                  <h2 className="text-2xl font-bold text-white mb-4">Memorable Moments</h2>
                   <BlurText
-                    text="Banyak momen berkesan selama kuliah, mulai dari mengikuti kepanitiaan yang memperluas relasi, memenangkan kejuaraan di luar kota yang sekaligus menjadi pengalaman traveling, hingga kebersamaan dengan teman-teman sejak masa awal kuliah sampai sekarang."
+                    text="There are many memorable moments from my college journey. Joining committees has expanded my network and provided valuable experiences. Winning championships in other cities also became not only an academic achievement but also an opportunity for traveling and exploring new places. Moreover, the friendships and bonds I have built with my peers since the beginning of college remain one of the most meaningful parts of this journey."
                     delay={150}
                     animateBy="words"
                     direction="top"
@@ -294,16 +302,16 @@ function App() {
 
               {/* Harapan ke Depan */}
               <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
-                <h2 className="text-2xl font-bold text-white mb-4">Harapan ke Depan</h2>
+                <h2 className="text-2xl font-bold text-white mb-4">Future Aspirations</h2>
                 <BlurText
-                  text="Ke depan, saya ingin terus mempelajari perkembangan teknologi agar lebih siap bersaing dan berharap bisa bergabung di perusahaan besar. Selain itu, saya juga ingin tetap menjaga hobi traveling ke pantai, gunung, serta mencoba kuliner baru sebagai bagian dari keseimbangan hidup."
+                  text="Looking ahead, I want to continue learning and keeping up with technological developments so that I am well-prepared to compete in the professional world. My aspiration is to join a reputable company where I can further sharpen my skills, grow professionally, and make meaningful contributions through the expertise I have developed."
                   delay={150}
                   animateBy="words"
                   direction="top"
                   className="text-base leading-relaxed text-gray-300"
                 />
                 <ShinyText
-                  text="Terus berkembang melalui setiap pengalaman."
+                  text="Continuously growing through every experience."
                   disabled={false}
                   speed={3}
                   className="text-sm md:text-base text-violet-400 mt-4"
@@ -342,7 +350,7 @@ function App() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            Contact & Chat
+            Contact Me
           </h1>
           <p
             className="text-base/loose text-center mb-10 opacity-50"
@@ -351,72 +359,52 @@ function App() {
             data-aos-delay="300"
             data-aos-once="true"
           >
-            Get in touch with me or chat in real-time
+            Let’s connect across different platforms. I’m open for collaboration or discussion!
           </p>
 
-          {/* Container dua kolom */}
-          <div className="flex flex-col md:flex-row gap-8">
-            {/* Chat Room di kiri */}
-            <div className="flex-1 bg-zinc-800 p-6 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
-              <ChatRoom />
-            </div>
+          {/* Grid tombol kontak */}
+          <div className="grid md:grid-cols-4 grid-cols-2 gap-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
+            {/* WhatsApp */}
+            <a 
+              href="https://wa.me/0859171641242" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex flex-col items-center p-6 bg-zinc-800 rounded-xl border border-zinc-700 hover:bg-zinc-700 transition-colors text-center"
+            >
+              <i className="ri-whatsapp-line ri-3x mb-2 text-green-500"></i>
+              <p className="text-sm font-medium">WhatsApp</p>
+            </a>
 
-            {/* Contact Form di kanan */}
-            <div className="flex-1">
-              <form
-                action="https://formsubmit.co/rissoppa21@gmail.com"
-                method="POST"
-                className="bg-zinc-800 p-10 w-full rounded-md"
-                autoComplete="off"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="500"
-                data-aos-once="true"
-              >
-                <div className="flex flex-col gap-6">
-                  <div className="flex flex-col gap-2">
-                    <label className="font-semibold">Full Name</label>
-                    <input
-                      type="text"
-                      name="Name"
-                      placeholder="Input Name..."
-                      className="border border-zinc-500 p-2 rounded-md"
-                      required
-                    />
-                  </div>
-                  <div className="flex flex-col gap-2">
-                    <label className="font-semibold">Email</label>
-                    <input
-                      type="email"
-                      name="Email"
-                      placeholder="Input Email..."
-                      className="border border-zinc-500 p-2 rounded-md"
-                      required
-                    />
-                  </div>
-                  <div className="flex flex-col gap-2">
-                    <label htmlFor="message" className="font-semibold">Message</label>
-                    <textarea
-                      name="message"
-                      id="message"
-                      cols="45"
-                      rows="7"
-                      placeholder="Message..."
-                      className="border border-zinc-500 p-2 rounded-md"
-                      required
-                    ></textarea>
-                  </div>
-                  <div className="text-center">
-                    <button
-                      type="submit"
-                      className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full w-full cursor-pointer border border-gray-700 hover:bg-[#222] transition-colors"
-                    >
-                      <ShinyText text="Send" disabled={false} speed={3} className="custom-class" />
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
+            {/* Email */}
+            <a 
+              href="mailto:shelynariskaamanatullah@gmail.com"
+              className="flex flex-col items-center p-6 bg-zinc-800 rounded-xl border border-zinc-700 hover:bg-zinc-700 transition-colors text-center"
+            >
+              <i className="ri-mail-line ri-3x mb-2 text-red-500"></i>
+              <p className="text-sm font-medium">Email</p>
+            </a>
+
+            {/* Instagram */}
+            <a 
+              href="https://www.instagram.com/shelyynra/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex flex-col items-center p-6 bg-zinc-800 rounded-xl border border-zinc-700 hover:bg-zinc-700 transition-colors text-center"
+            >
+              <i className="ri-instagram-line ri-3x mb-2 text-pink-500"></i>
+              <p className="text-sm font-medium">Instagram</p>
+            </a>
+
+            {/* LinkedIn */}
+            <a 
+              href="https://www.linkedin.com/in/shelyna-riska-amanatullah-420a5040a/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex flex-col items-center p-6 bg-zinc-800 rounded-xl border border-zinc-700 hover:bg-zinc-700 transition-colors text-center"
+            >
+              <i className="ri-linkedin-line ri-3x mb-2 text-blue-500"></i>
+              <p className="text-sm font-medium">LinkedIn</p>
+            </a>
           </div>
         </div>
         {/* Kontak */}
